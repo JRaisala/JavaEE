@@ -1,6 +1,7 @@
 
 package com.base.controller;
 
+import com.base.models.Teachers;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +20,10 @@ public class DefaultController {
       @RequestMapping(value="/second", method=RequestMethod.GET)
     public String second(ModelMap map){
         //Render secon.jsp
-               map.addAttribute("name", "jotain");
+      
+        
         return "second";
     } 
 }
+
+
