@@ -9,9 +9,11 @@
     <property name="hibernate.connection.password">root</property>
     <property name="hibernate.show_sql">true</property>
     <property name="hibernate.format_sql">true</property>
-    <mapping resource="com/base/models/RelTable.hbm.xml"/>
+    <mapping resource="com/base/models/Teachers.hbm.xml"/>
+    <mapping resource="com/base/models/UserRoles.hbm.xml"/>
+    <mapping resource="com/base/models/User.hbm.xml"/>
     <mapping resource="com/base/models/Students.hbm.xml"/>
     <mapping resource="com/base/models/Course.hbm.xml"/>
-    <mapping resource="com/base/models/Teachers.hbm.xml"/>
+    <mapping resource="com/base/models/RelTable.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
