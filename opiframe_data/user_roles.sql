@@ -6,3 +6,5 @@ create table user_roles(
     primary key(_id),
     foreign key(user_id) references user(_id)
 )Engine=InnoDb;
+
+drop table user_roles;

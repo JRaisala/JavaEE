@@ -5,3 +5,5 @@ create table user(
     enable tinyint(4),
     primary key(_id)
 )Engine=InnoDb;
+
+drop table user;
